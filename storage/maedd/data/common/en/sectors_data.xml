@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sectors_data><meta><autoIncrement>158</autoIncrement></meta><data><row><id>47</id><Ene_A>Ene_1</Ene_A><Ene_H>1</Ene_H>
+
+<Ene_1>Energy</Ene_1>
+<SID>Ene</SID></row><row><id>148</id><Agr_A>Agr_1</Agr_A><Agr_H>12</Agr_H>
+
+<Agr_1>Agriculture</Agr_1>
+<Agr_1_fr/><Agr_1_ps/><SID>Agr</SID></row><row><id>150</id><Min_A>Min_1</Min_A><Min_H>4</Min_H>
+
+<Min_1>Mining</Min_1>
+<Min_1_fr/><Min_1_ps/><SID>Min</SID></row><row><id>152</id><Ser_A>Ser_1</Ser_A><Ser_H>6</Ser_H>
+
+<Ser_1>Service</Ser_1>
+<Ser_1_fr/><Ser_1_ps/><SID>Ser</SID></row><row><id>154</id><Hou_A>Hou_1,Hou_2</Hou_A><Hou_H>2</Hou_H>
+
+<Hou_1>Urban</Hou_1>
+<Hou_1_fr></Hou_1_fr><Hou_1_ps></Hou_1_ps><Hou_1_A>Hou_1_1</Hou_1_A><Hou_1_H>1</Hou_1_H>
+
+<Hou_1_1>Urban_house</Hou_1_1>
+
+<Hou_2>Rural</Hou_2>
+<Hou_2_fr></Hou_2_fr><Hou_2_ps></Hou_2_ps><Hou_2_A>Hou_2_1</Hou_2_A><Hou_2_H>1</Hou_2_H>
+
+<Hou_2_1>Rural house</Hou_2_1>
+<SID>Hou</SID></row><row><id>155</id><Man_A>Man_1</Man_A><Man_H>6</Man_H>
+
+<Man_1>Manufacturing</Man_1>
+<Man_1_fr/><Man_1_ps/><SID>Man</SID></row><row><id>156</id><Cst_A>Cst_1</Cst_A><Cst_H>5</Cst_H>
+
+<Cst_1>Construction</Cst_1>
+<Cst_1_fr/><Cst_1_ps/><SID>Cst</SID></row><row><id>158</id><Trp_A>Trp_3,Trp_4,Trp_5</Trp_A><Trp_H>5</Trp_H><Trp_3>Freight</Trp_3><Trp_3_fr>Y</Trp_3_fr><Trp_3_fr_fl>a</Trp_3_fr_fl><Trp_3_ps></Trp_3_ps><Trp_3_ps_fl></Trp_3_ps_fl><Trp_3_psi></Trp_3_psi><Trp_3_psi_fl></Trp_3_psi_fl><Trp_3_psp></Trp_3_psp><Trp_3_psp_fl></Trp_3_psp_fl>
+
+<Trp_4>Passenger1</Trp_4>
+<Trp_4_fr></Trp_4_fr><Trp_4_fr_fl></Trp_4_fr_fl><Trp_4_ps>Y</Trp_4_ps><Trp_4_ps_fl>a</Trp_4_ps_fl><Trp_4_psi>Y</Trp_4_psi><Trp_4_psi_fl>a</Trp_4_psi_fl><Trp_4_psp></Trp_4_psp><Trp_4_psp_fl></Trp_4_psp_fl>
+
+<Trp_5>Passenger2</Trp_5>
+<Trp_5_fr></Trp_5_fr><Trp_5_fr_fl></Trp_5_fr_fl><Trp_5_ps>Y</Trp_5_ps><Trp_5_ps_fl>a</Trp_5_ps_fl><Trp_5_psi></Trp_5_psi><Trp_5_psi_fl></Trp_5_psi_fl><Trp_5_psp></Trp_5_psp><Trp_5_psp_fl></Trp_5_psp_fl><SID>Trp</SID></row></data></sectors_data>

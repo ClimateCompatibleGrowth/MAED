@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<unittypes>
+  <unittype>
+    <id>UA</id>
+    <name>Monetary unit</name>
+	<val>US$</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UB</id>
+    <name>GDP</name>
+	<val>10^9 US$</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UC</id>
+    <name>Pop and Dw</name>
+	<val>million</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UD</id>
+    <name>GDP/cap</name>
+	<val>US$</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UE</id>
+    <name>Energy</name>
+	<val>GWyr</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UF</id>
+    <name>E-Intensity</name>
+	<val>kWh/US$</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UG</id>
+    <name>Freight trp</name>
+	<val>10^9 tkm</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UH</id>
+    <name>tkm gener.</name>
+	<val>tkm/US$</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UI</id>
+    <name>En Int FrTrp</name>
+	<val>kWh/100tkm</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UJ</id>
+    <name>Pass. trp.</name>
+	<val>10^9 pkm</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UK</id>
+    <name>En Int PassTrp</name>
+	<val>kWh/pkm</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UL</id>
+    <name>User energy unit</name>
+	<val>Mtoe</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UM</id>
+    <name>Conv. factor</name>
+	<val>0.75322442</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>UN</id>
+    <name>CF from TWh to</name>
+	<val>0.114155251</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>UO</id>
+    <name>FE valr Capita</name>
+	<val>MWh/cap</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UP</id>
+    <name>annual gr</name>
+	<val>%p.a.</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UR</id>
+    <name>captia/hh</name>
+	<val>cap</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>US</id>
+    <name>COP  and  HELRAT</name>
+	<val>ratio</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>CA</id>
+    <name>Steel  and  Feed Stock</name>
+	<val>Mt</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>CB</id>
+    <name>Steel  and  Feed (var)</name>
+	<val>Mt/VA</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>CC</id>
+    <name>Steel in non-electric furnance</name>
+	<val>%</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>CD</id>
+    <name>Specific consumption of pig iron</name>
+	<val>%</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>CE</id>
+    <name>Coke Usage</name>
+	<val>kg/ton</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>CF</id>
+    <name>Feedstock Production(constant)</name>
+	<val>Mt</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>CG</id>
+    <name>Feedstock Production(variable)</name>
+	<val>Mt/VA</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>CH</id>
+    <name>Steel Production</name>
+	<val>Mt</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>CI</id>
+    <name>Feedstock Production</name>
+	<val>Mt</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>UV</id>
+    <name>coke usage</name>
+	<val>kg/ton</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>UW</id>
+    <name>distance intracity</name>
+	<val>km/prsn/day</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>UX</id>
+    <name>intercity</name>
+	<val>km/prsn/yr</val>
+	<RT>N</RT>
+  </unittype>
+   <unittype>
+    <id>UY</id>
+    <name>Car Owner</name>
+	<val>person/car</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>UZ</id>
+    <name>Car Km</name>
+	<val>km/car/yr</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>AU</id>
+    <name>LF plane</name>
+	<val>%occupied</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>BU</id>
+    <name>LF cars</name>
+	<val>prsn/car</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>CU</id>
+    <name>degree days</name>
+	<val>Days</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>DU</id>
+    <name>DW Area</name>
+	<val>sqm</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>EU</id>
+    <name>K value</name>
+	<val>Wh/sqm/ C/h</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>FU</id>
+    <name>Spc. Req AC</name>
+	<val>kWh/dw/yr</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>GU</id>
+    <name>cooking</name>
+	<val>kWh/dw/yr</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>HU</id>
+    <name>hot water</name>
+	<val>kWh/cap/yr</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>IU</id>
+    <name>el appliance</name>
+	<val>kWh/dw/yr</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>JU</id>
+    <name>FF lighting</name>
+	<val>kWh/dw/yr</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>KU</id>
+    <name>floor area/employee</name>
+	<val>m2/cap</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>LU</id>
+    <name>labour force</name>
+	<val>million</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>MU</id>
+    <name>floor area</name>
+	<val>million sqm</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>NU</id>
+    <name>spe.sp req AC/Sp Heating</name>
+	<val>/m2/y</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>NV</id>
+    <name>%</name>
+	<val>%</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>HPC</id>
+    <name>%</name>
+	<val>ratio</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>SOS</id>
+    <name>%</name>
+	<val>%</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>CGE</id>
+    <name>%</name>
+	<val>%</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>BD</id>
+    <name>%</name>
+	<val>ratio</val>
+	<RT>N</RT>
+  </unittype>
+  <unittype>
+    <id>MBS</id>
+    <name>%</name>
+	<val>%</val>
+	<RT>N</RT>
+  </unittype>
+</unittypes>

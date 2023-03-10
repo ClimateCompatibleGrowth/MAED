@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dweltypes>
+  <dweltype>
+    <id>a</id>
+    <value>Besoin spécifique en énergie</value>
+    <unit>/dw/yr</unit>
+    <ftype>CO</ftype>
+  </dweltype>
+  <dweltype>
+    <id>c</id>
+    <value>Besoin spécifique d'eau chaude par habitant</value>
+    <unit>kWh/cap/yr</unit>
+    <ftype>WH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>b</id>
+    <value>Logement avec eau chaude</value>
+    <unit>%</unit>
+    <ftype>WH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>e</id>
+    <value>Pénetration en électricité</value>
+    <unit>%</unit>
+    <ftype>AP</ftype>
+  </dweltype>
+  <dweltype>
+    <id>d</id>
+    <value>Besoin spécifique en énergie</value>
+    <unit>/dw/yr</unit>
+    <ftype>AP</ftype>
+  </dweltype>
+  <dweltype>
+    <id>d</id>
+    <value>Besoin spécifique en énergie</value>
+    <unit>/dw/yr</unit>
+    <ftype>LH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>f</id>
+    <value>Subsituts combustible</value>
+    <unit>/dw/yr</unit>
+    <ftype>AP</ftype>
+  </dweltype>
+   <dweltype>
+    <id>f</id>
+    <value>Besoins spécifique de substitut en carburan </value>
+    <unit>/dw/yr</unit>
+    <ftype>LH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>g</id>
+    <value>Parts par type de logement</value>
+    <unit>%</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>h</id>
+    <value>Taille de logement par type de logement</value>
+    <unit>m2</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+ <dweltype>
+    <id>i</id>
+    <value>Zone chauffé</value>
+    <unit>%</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>j</id>
+    <value>Taux de perte de chaleur</value>
+    <unit>/m2/C/h</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>k</id>
+    <value>Logements avec climatisation</value>
+    <unit>%</unit>
+    <ftype>AC</ftype>
+  </dweltype>
+  <dweltype>
+    <id>l</id>
+    <value>Besoin spécifiaue de refroidissement</value>
+    <unit>/dw/yr</unit>
+    <ftype>AC</ftype>
+  </dweltype>
+</dweltypes>

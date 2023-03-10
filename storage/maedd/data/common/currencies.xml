@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<currency>
+  <currencies><id>AFN</id><value>Afghanistan Afghani</value></currencies>
+<currencies><id>ALL</id><value>Albanian Lek</value></currencies>
+<currencies><id>DZD</id><value>Algerian Dinar</value></currencies>
+<currencies><id>ADF</id><value>Andorran Franc</value></currencies>
+<currencies><id>ADP</id><value>Andorran Peseta</value></currencies>
+<currencies><id>AOA</id><value>Angolan Kwanza</value></currencies>
+<currencies><id>AON</id><value>Angolan New Kwanza</value></currencies>
+<currencies><id>ARS</id><value>Argentine Peso</value></currencies>
+<currencies><id>AMD</id><value>Armenian Dram</value></currencies>
+<currencies><id>AWG</id><value>Aruban Florin</value></currencies>
+<currencies><id>AUD</id><value>Australian Dollar</value></currencies>
+<currencies><id>ATS</id><value>Austrian Schilling</value></currencies>
+<currencies><id>AZM</id><value>Azerbaijan Manat</value></currencies>
+<currencies><id>AZN</id><value>Azerbaijan New Manat</value></currencies>
+<currencies><id>BSD</id><value>Bahamian Dollar</value></currencies>
+<currencies><id>BHD</id><value>Bahraini Dinar</value></currencies>
+<currencies><id>BDT</id><value>Bangladeshi Taka</value></currencies>
+<currencies><id>BBD</id><value>Barbados Dollar</value></currencies>
+<currencies><id>BYR</id><value>Belarusian Ruble</value></currencies>
+<currencies><id>BEF</id><value>Belgian Franc</value></currencies>
+<currencies><id>BZD</id><value>Belize Dollar</value></currencies>
+<currencies><id>BMD</id><value>Bermudian Dollar</value></currencies>
+<currencies><id>BTN</id><value>Bhutan Ngultrum</value></currencies>
+<currencies><id>BOB</id><value>Bolivian Boliviano</value></currencies>
+<currencies><id>BAM</id><value>Bosnian Mark</value></currencies>
+<currencies><id>BWP</id><value>Botswana Pula</value></currencies>
+<currencies><id>BRL</id><value>Brazilian Real</value></currencies>
+<currencies><id>GBP</id><value>British Pound</value></currencies>
+<currencies><id>BND</id><value>Brunei Dollar</value></currencies>
+<currencies><id>BGN</id><value>Bulgarian Lev</value></currencies>
+<currencies><id>BIF</id><value>Burundi Franc</value></currencies> 
+<currencies><id>XOF</id><value>CFA Franc BCEAO</value></currencies>
+<currencies><id>XAF</id><value>CFA Franc BEAC</value></currencies>
+<currencies><id>XPF</id><value>CFP Franc</value></currencies> 
+<currencies><id>KHR</id><value>Cambodian Riel</value></currencies>  
+<currencies><id>CAD</id><value>Canadian Dollar</value></currencies>
+<currencies><id>CVE</id><value>Cape Verde Escudo</value></currencies>
+<currencies><id>KYD</id><value>Cayman Islands Dollar</value></currencies>
+<currencies><id>CLP</id><value>Chilean Peso</value></currencies>
+<currencies><id>CNY</id><value>Chinese Yuan Renminbi</value></currencies>
+<currencies><id>COP</id><value>Colombian Peso</value></currencies>
+<currencies><id>KMF</id><value>Comoros Franc</value></currencies>
+<currencies><id>CDF</id><value>Congolese Franc</value></currencies>  
+<currencies><id>CRC</id><value>Costa Rican Colon</value></currencies>  
+<currencies><id>HRK</id><value>Croatian Kuna</value></currencies> 
+<currencies><id>CUC</id><value>Cuban Convertible Peso</value></currencies> 
+<currencies><id>CUP</id><value>Cuban Peso</value></currencies>
+<currencies><id>CYP</id><value>Cyprus Pound</value></currencies>
+<currencies><id>CZK</id><value>Czech Koruna</value></currencies>
+<currencies><id>DKK</id><value>Danish Krone</value></currencies>      
+<currencies><id>DJF</id><value>Djibouti Franc</value></currencies>                              
+<currencies><id>DOP</id><value>Dominican R. Peso</value></currencies>                              
+<currencies><id>NLG</id><value>Dutch Guilder</value></currencies>                              
+<currencies><id>XEU</id><value>ECU</value></currencies>                             
+<currencies><id>XCD</id><value>East Caribbean Dollar</value></currencies>                             
+<currencies><id>ECS</id><value>Ecuador Sucre</value></currencies>                              
+<currencies><id>EGP</id><value>Egyptian Pound</value></currencies>                              
+<currencies><id>SVC</id><value>El Salvador Colon</value></currencies>                              
+<currencies><id>EEK</id><value>Estonian Kroon</value></currencies>                              
+<currencies><id>ETB</id><value>Ethiopian Birr</value></currencies>                              
+<currencies><id>EUR</id><value>Euro</value></currencies>                              
+<currencies><id>FKP</id><value>Falkland Islands Pound</value></currencies>                            
+<currencies><id>FJD</id><value>Fiji Dollar</value></currencies>                             
+<currencies><id>FIM</id><value>Finnish Markka</value></currencies>                              
+<currencies><id>FRF</id><value>French Franc</value></currencies>                              
+<currencies><id>GMD</id><value>Gambian Dalasi</value></currencies>                              
+<currencies><id>GEL</id><value>Georgian Lari</value></currencies>                              
+<currencies><id>DEM</id><value>German Mark</value></currencies>                            
+<currencies><id>GHC</id><value>Ghanaian Cedi</value></currencies>                              
+<currencies><id>GHS</id><value>Ghanaian New Cedi</value></currencies>                              
+<currencies><id>GIP</id><value>Gibraltar Pound</value></currencies>                              
+<currencies><id>XAU</id><value>Gold (oz.)</value></currencies>                             
+<currencies><id>GRD</id><value>Greek Drachma</value></currencies>                              
+<currencies><id>GTQ</id><value>Guatemalan Quetzal</value></currencies>                             
+<currencies><id>GNF</id><value>Guinea Franc</value></currencies>                             
+<currencies><id>GYD</id><value>Guyanese Dollar</value></currencies>                             
+<currencies><id>HTG</id><value>Haitian Gourde</value></currencies>                              
+<currencies><id>HNL</id><value>Honduran Lempira</value></currencies>                              
+<currencies><id>HKD</id><value>Hong Kong Dollar</value></currencies>                             
+<currencies><id>HUF</id><value>Hungarian Forint</value></currencies>                             
+<currencies><id>ISK</id><value>Iceland Krona</value></currencies>                              
+<currencies><id>INR</id><value>Indian Rupee</value></currencies>                              
+<currencies><id>IDR</id><value>Indonesian Rupiah</value></currencies>                              
+<currencies><id>IRR</id><value>Iranian Rial</value></currencies>                              
+<currencies><id>IQD</id><value>Iraqi Dinar</value></currencies>                             
+<currencies><id>IEP</id><value>Irish Punt</value></currencies>                              
+<currencies><id>ILS</id><value>Israeli New Shekel</value></currencies>                              
+<currencies><id>ITL</id><value>Italian Lira</value></currencies>                              
+<currencies><id>JMD</id><value>Jamaican Dollar</value></currencies>                             
+<currencies><id>JPY</id><value>Japanese Yen</value></currencies>                            
+<currencies><id>JOD</id><value>Jordanian Dinar</value></currencies>                              
+<currencies><id>KZT</id><value>Kazakhstan Tenge</value></currencies>                             
+<currencies><id>KES</id><value>Kenyan Shilling</value></currencies>                              
+<currencies><id>KWD</id><value>Kuwaiti Dinar</value></currencies>                         
+<currencies><id>KGS</id><value>Kyrgyzstanian Som</value></currencies>                         
+<currencies><id>LAK</id><value>Lao Kip</value></currencies>                              
+<currencies><id>LVL</id><value>Latvian Lats</value></currencies>                           
+<currencies><id>LBP</id><value>Lebanese Pound</value></currencies>                              
+<currencies><id>LSL</id><value>Lesotho Loti</value></currencies>                              
+<currencies><id>LRD</id><value>Liberian Dollar</value></currencies>                              
+<currencies><id>LYD</id><value>Libyan Dinar</value></currencies>                              
+<currencies><id>LTL</id><value>Lithuanian Litas</value></currencies>                              
+<currencies><id>LUF</id><value>Luxembourg Franc</value></currencies>                              
+<currencies><id>MOP</id><value>Macau Pataca</value></currencies>                            
+<currencies><id>MKD</id><value>Macedonian Denar</value></currencies>                              
+<currencies><id>MGA</id><value>Malagasy Ariary</value></currencies>                              
+<currencies><id>MGF</id><value>Malagasy Franc</value></currencies>                        
+<currencies><id>MWK</id><value>Malawi Kwacha</value></currencies>                             
+<currencies><id>MYR</id><value>Malaysian Ringgit</value></currencies>
+<currencies><id>MVR</id><value>Maldive Rufiyaa</value></currencies>
+<currencies><id>MTL</id><value>Maltese Lira</value></currencies>
+<currencies><id>MRO</id><value>Mauritanian Ouguiya</value></currencies>
+<currencies><id>MUR</id><value>Mauritius Rupee</value></currencies>
+<currencies><id>MXN</id><value>Mexican Peso</value></currencies>
+<currencies><id>MDL</id><value>Moldovan Leu</value></currencies>
+<currencies><id>MNT</id><value>Mongolian Tugrik</value></currencies>
+<currencies><id>MAD</id><value>Moroccan Dirham</value></currencies>
+<currencies><id>MZM</id><value>Mozambique Metical</value></currencies>
+<currencies><id>MZN</id><value>Mozambique New Metical</value></currencies>
+<currencies><id>MMK</id><value>Myanmar Kyat</value></currencies>
+<currencies><id>ANG</id><value>NL Antillian Guilder</value></currencies>
+<currencies><id>NAD</id><value>Namibia Dollar</value></currencies>
+<currencies><id>NPR</id><value>Nepalese Rupee</value></currencies> 
+<currencies><id>NZD</id><value>New Zealand Dollar</value></currencies>
+<currencies><id>NIO</id><value>Nicaraguan Cordoba Oro</value></currencies>
+<currencies><id>NGN</id><value>Nigerian Naira</value></currencies>
+<currencies><id>KPW</id><value>North Korean Won</value></currencies>
+<currencies><id>NOK</id><value>Norwegian Kroner</value></currencies>    
+<currencies><id>OMR</id><value>Omani Rial</value></currencies>                          
+<currencies><id>PKR</id><value>Pakistan Rupee</value></currencies>                            
+<currencies><id>XPD</id><value>Palladium (oz.)</value></currencies>                              
+<currencies><id>PAB</id><value>Panamanian Balboa</value></currencies>
+<currencies><id>PGK</id><value>Papua New Guinea Kina</value></currencies>
+<currencies><id>PYG</id><value>Paraguay Guarani</value></currencies>
+<currencies><id>PEN</id><value>Peruvian Nuevo Sol</value></currencies>
+<currencies><id>PHP</id><value>Philippine Peso</value></currencies>
+<currencies><id>XPT</id><value>Platinum (oz.)</value></currencies>
+<currencies><id>PLN</id><value>Polish Zloty</value></currencies>
+<currencies><id>PTE</id><value>Portuguese Escudo</value></currencies>
+<currencies><id>QAR</id><value>Qatari Rial</value></currencies>
+<currencies><id>ROL</id><value>Romanian Lei</value></currencies>
+<currencies><id>RON</id><value>Romanian New Lei</value></currencies>
+<currencies><id>RUB</id><value>Russian Rouble</value></currencies>
+<currencies><id>RWF</id><value>Rwandan Franc</value></currencies>
+<currencies><id>WST</id><value>Samoan Tala</value></currencies>
+<currencies><id>STD</id><value>Sao Tome/Principe Dobra</value></currencies>
+<currencies><id>SAR</id><value>Saudi Riyal</value></currencies>
+<currencies><id>RSD</id><value>Serbian Dinar</value></currencies>
+<currencies><id>SCR</id><value>Seychelles Rupee</value></currencies> 
+<currencies><id>SLL</id><value>Sierra Leone Leone</value></currencies>
+<currencies><id>XAG</id><value>Silver (oz.)</value></currencies>
+<currencies><id>SGD</id><value>Singapore Dollar</value></currencies>
+<currencies><id>SKK</id><value>Slovak Koruna</value></currencies>
+<currencies><id>SIT</id><value>Slovenian Tolar</value></currencies>
+<currencies><id>SBD</id><value>Solomon Islands Dollar</value></currencies>
+<currencies><id>SOS</id><value>Somali Shilling</value></currencies>
+<currencies><id>ZAR</id><value>South African Rand</value></currencies>
+<currencies><id>KRW</id><value>South-Korean Won</value></currencies>
+<currencies><id>ESP</id><value>Spanish Peseta</value></currencies>
+<currencies><id>LKR</id><value>Sri Lanka Rupee</value></currencies>
+<currencies><id>SHP</id><value>St. Helena Pound</value></currencies>
+<currencies><id>SDD</id><value>Sudanese Dinar</value></currencies>
+<currencies><id>SDP</id><value>Sudanese Old Pound</value></currencies> 
+<currencies><id>SDG</id><value>Sudanese Pound</value></currencies>
+<currencies><id>SRD</id><value>Suriname Dollar</value></currencies>
+<currencies><id>SRG</id><value>Suriname Guilder</value></currencies>
+<currencies><id>SZL</id><value>Swaziland Lilangeni</value></currencies>
+<currencies><id>SEK</id><value>Swedish Krona</value></currencies>                              
+<currencies><id>CHF</id><value>Swiss Franc</value></currencies>
+<currencies><id>SYP</id><value>Syrian Pound</value></currencies>
+<currencies><id>TWD</id><value>Taiwan Dollar</value></currencies>
+<currencies><id>TJS</id><value>Tajikistani Somoni</value></currencies>
+<currencies><id>TZS</id><value>Tanzanian Shilling</value></currencies>
+<currencies><id>THB</id><value>Thai Baht</value></currencies>
+<currencies><id>TOP</id><value>Tonga Pa'anga</value></currencies>
+<currencies><id>TTD</id><value>Trinidad/Tobago Dollar</value></currencies>
+<currencies><id>TND</id><value>Tunisian Dinar</value></currencies>
+<currencies><id>TRY</id><value>Turkish Lira</value></currencies>
+<currencies><id>TRL</id><value>Turkish Old Lira</value></currencies>
+<currencies><id>TMM</id><value>Turkmenistan Manat</value></currencies>
+<currencies><id>TMT</id><value>Turkmenistan New Manat</value></currencies>
+<currencies><id>UGX</id><value>Uganda Shilling</value></currencies>
+<currencies><id>UAH</id><value>Ukraine Hryvnia</value></currencies>
+<currencies><id>UYU</id><value>Uruguayan Peso</value></currencies>
+<currencies><id>AED</id><value>Utd. Arab Emir. Dirham</value></currencies>
+<currencies><id>UZS</id><value>Uzbekistan Som</value></currencies>
+<currencies><id>US$</id><value>US Dollar</value></currencies>
+<currencies><id>VUV</id><value>Vanuatu Vatu</value></currencies>
+<currencies><id>VEB</id><value>Venezuelan Bolivar</value></currencies>
+<currencies><id>VEF</id><value>Venezuelan Bolivar Fuerte</value></currencies>
+<currencies><id>VND</id><value>Vietnamese Dong</value></currencies>
+<currencies><id>YER</id><value>Yemeni Rial</value></currencies>
+<currencies><id>YUN</id><value>Yugoslav Dinar</value></currencies>
+<currencies><id>ZMK</id><value>Zambian Kwacha</value></currencies>
+<currencies><id>ZWD</id><value>Zimbabwe Dollar</value></currencies>
+</currency>

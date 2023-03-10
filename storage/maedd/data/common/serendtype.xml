@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<serendtypes>
+	<serendtype>
+		<id>SH</id>
+		<value>Space Heating</value>
+		<pen>Y</pen>
+		<eff>Y</eff>
+	</serendtype>
+	<serendtype>
+		<id>MP</id>
+		<value>Motive Power</value>
+		<pen>N</pen>
+		<eff>N</eff>
+	</serendtype>
+	<serendtype>
+		<id>AP</id>
+		<value>Electricity Specific Uses</value>
+		<pen>N</pen>
+		<eff>N</eff>
+	</serendtype>
+	<serendtype>
+		<id>TU</id>
+		<value>Thermal Uses</value>
+		<pen>Y</pen>
+		<eff>Y</eff>
+	</serendtype>
+	<serendtype>
+		<id>AC</id>
+		<value>Air Conditioning</value>
+		<pen>Y</pen>
+		<eff>Y</eff>
+	</serendtype>
+</serendtypes>

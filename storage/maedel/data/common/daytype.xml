@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<daytypes>
+  <daytype>
+    <id>Mon</id>
+    <value_en>Monday</value_en>
+	<value_es>Monday-es</value_es>
+	<value_fr>Lundi</value_fr>
+	<type>D</type>
+ </daytype>
+ <daytype>
+    <id>Tue</id>
+    <value_en>Tuesday</value_en>
+	<value_es>Tuesday-es</value_es>
+	<value_fr>Mardi</value_fr>
+	<type>D</type>
+ </daytype>
+ <daytype>
+    <id>Wed</id>
+    <value_en>Wednesday</value_en>
+	<value_es>Wednesday-es</value_es>
+	<value_fr>Mercredi</value_fr>
+	<type>D</type>
+ </daytype>
+ <daytype>
+    <id>Thu</id>
+    <value_en>Thursday</value_en>
+	<value_es>Thursday-es</value_es>
+	<value_fr>Jeudi</value_fr>
+	<type>D</type>
+ </daytype>
+ <daytype>
+    <id>Fri</id>
+    <value_en>Friday</value_en>
+	<value_es>Friday-es</value_es>
+	<value_fr>Vendredi</value_fr>
+	<type>D</type>
+ </daytype>
+ <daytype>
+    <id>Sat</id>
+    <value_en>Saturday</value_en>
+	<value_es>Saturday-es</value_es>
+	<value_fr>Samedi</value_fr>
+	<type>D</type>
+ </daytype>
+ <daytype>
+    <id>Sun</id>
+    <value_en>Sunday</value_en>
+	<value_es>Sunday-es</value_es>
+	<value_fr>Dimanche</value_fr>
+	<type>D</type>
+ </daytype>
+ <daytype>
+    <id>Wd</id>
+    <value_en>Working days</value_en>
+	<value_es>Working days</value_es>
+	<value_fr>Jour ouvré</value_fr>
+	<type>T</type>
+ </daytype>
+ <daytype>
+    <id>SSH</id>
+    <value_en>Saturday-Sunday-Holiday</value_en>
+	<value_es>Saturday-Sunday-Holiday</value_es>
+	<value_fr>Samedi-dimanche-vacances</value_fr>
+	<type>T</type>
+ </daytype>
+ <daytype>
+    <id>SH</id>
+    <value_en>Sunday-Holiday</value_en>
+	<value_es>Sunday-Holiday</value_es>
+	<value_fr>Dimanche-Vacances</value_fr>
+	<type>T</type>
+ </daytype>
+  <daytype>
+    <id>Ad</id>
+    <value_en>Any day</value_en>
+	<value_es>Any day</value_es>
+	<value_fr>Tous les jours</value_fr>
+	<type>T</type>
+ </daytype>
+ <daytype>
+    <id>Ho</id>
+    <value_en>Holiday</value_en>
+	<value_es>Holiday</value_es>
+	<value_fr>Holiday</value_fr>
+	<type>H</type>
+ </daytype>
+</daytypes>

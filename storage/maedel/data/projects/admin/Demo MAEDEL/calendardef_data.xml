@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<calendardef_data><meta><autoIncrement>4</autoIncrement></meta><data><row><id>4</id><season_1>2038-01-01</season_1><season_2>2038-04-01</season_2><season_3>2038-06-01</season_3><season_4>2038-10-01</season_4><seasonname_1>Winter</seasonname_1><seasonname_2>Spring</seasonname_2><seasonname_3>Summer</seasonname_3><seasonname_4>Autumn</seasonname_4><daytype_1>Wd</daytype_1><daytype_2>SSH</daytype_2><SID>1</SID></row></data></calendardef_data>

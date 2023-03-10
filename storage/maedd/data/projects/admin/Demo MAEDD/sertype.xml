@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<sertypes>
+  <sertype>
+    <id>TF</id>
+    <value>Traditional fuels</value>
+	<eff>Traditional Fuels</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+</sertype>
+  <sertype>
+    <id>MB</id>
+    <value>Modern Biomass</value>
+	<eff>Modern Biomass</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+   <sertype>
+    <id>FF</id>
+    <value>Fossil Fuels</value>
+	<eff>Fossil Fuels</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>Y</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>EL</id>
+    <value>Electricity</value>
+	<eff>COP Heat Pumps</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>Y</AC>
+    <AP>Y</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>DH</id>
+    <value>District Heating</value>
+	<eff></eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>SO</id>
+    <value>Soft Solar Systems</value>
+	<eff>Solar Share</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>MF</id>
+    <value>Motor Fuels</value>
+	<eff>Eff. Fossil Fuels</eff>
+    <SH>N</SH>
+    <TU>N</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>Y</MP>
+  </sertype>
+ </sertypes>

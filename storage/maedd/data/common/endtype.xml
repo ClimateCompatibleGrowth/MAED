@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<endtypes>
+  <endtype>
+    <id>AP</id>
+    <value>Specific Electricity use</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+    <endtype>
+    <id>LH</id>
+    <value>Lighting</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>N</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+  <endtype>
+    <id>AC</id>
+    <value>Air Conditioning</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>Y</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+    <endtype>
+    <id>CO</id>
+    <value>Cooking</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>N</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+  <endtype>
+    <id>SH</id>
+    <value>Space Heating</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>Y</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+  <endtype>
+    <id>OT</id>
+    <value>Others</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>N</Hou>
+  </endtype>
+
+  <endtype>
+    <id>WH</id>
+    <value>Water Heating</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>N</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+   <endtype>
+    <id>TU</id>
+    <value>Thermal use</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>N</Hou>
+  </endtype>
+  <endtype>
+    <id>FDH</id>
+    <value>Temp High</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>Y</Man>
+    <Ser>N</Ser>
+	<Hou>N</Hou>
+  </endtype>
+   <endtype>
+    <id>SG</id>
+    <value>Temp Medium</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>Y</Man>
+    <Ser>N</Ser>
+	<Hou>N</Hou>
+  </endtype>
+   <endtype>
+    <id>SWH</id>
+    <value>Temp Low</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>Y</Man>
+    <Ser>N</Ser>
+	<Hou>N</Hou>
+  </endtype>
+    <endtype>
+    <id>MP</id>
+    <value>Motive Power</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>N</Hou>
+  </endtype>
+</endtypes>
+
+

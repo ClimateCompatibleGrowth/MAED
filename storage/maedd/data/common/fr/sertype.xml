@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sertypes>
+  <sertype>
+    <id>TF</id>
+    <value>Combustibles traditionels</value>
+	<eff>Combustibles traditionels</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+</sertype>
+  <sertype>
+    <id>MB</id>
+    <value>Biomasse Moderne</value>
+	<eff>Biomasse Moderne</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+   <sertype>
+    <id>FF</id>
+    <value>Combustibles Fossile</value>
+	<eff>Combustibles Fossile</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>Y</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>EL</id>
+    <value>Electricité</value>
+	<eff>COP Pompe à chaleur</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>Y</AC>
+    <AP>Y</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>DH</id>
+    <value>Chauffage centralisé</value>
+	<eff></eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>SO</id>
+    <value>Système solaire</value>
+	<eff>Part du solaire</eff>
+    <SH>Y</SH>
+    <TU>Y</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>N</MP>
+  </sertype>
+  <sertype>
+    <id>MF</id>
+    <value>Carburant à moteur</value>
+	<eff>Rend. Carburant à moteur</eff>
+    <SH>N</SH>
+    <TU>N</TU>
+    <AC>N</AC>
+    <AP>N</AP>
+    <MP>Y</MP>
+  </sertype>
+ </sertypes>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<maintypes>
+  <maintype>
+    <id>AAA</id>
+    <value>Industry1</value>
+    <sub1>Y</sub1>
+    <fname>4</fname>
+  </maintype>
+  <maintype>
+    <id>S</id>
+    <value>Transport</value>
+    <sub1>N</sub1>
+    <fname>4</fname>
+  </maintype>
+  <maintype>
+    <id>S1</id>
+    <value>Household</value>
+    <sub1>N</sub1>
+    <fname>4</fname>
+  </maintype>
+  <maintype>
+    <id>S2</id>
+    <value>Service</value>
+    <sub1>N</sub1>
+    <fname>4</fname>
+  </maintype>
+</maintypes>

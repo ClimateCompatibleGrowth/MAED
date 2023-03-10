@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<facmtypes>
+  <facmtype>
+    <id>SEL</id>
+    <value>Specific Electricity Uses</value>
+	<TY>N</TY>
+	<PE>X</PE>
+	<RT>X</RT>
+  </facmtype>
+  <facmtype>
+    <id>MP</id>
+    <value>Motive Power</value>
+	<TY>N</TY>
+	<PE>X</PE>
+	<RT>X</RT>
+  </facmtype>
+  <facmtype>
+    <id>TU</id>
+    <value>Thermal Uses</value>
+	<TY>N</TY>
+	<PE>X</PE>
+	<RT>X</RT>
+  </facmtype>
+  <facmtype>
+    <id>FDH</id>
+    <value>High Level</value>
+	<TY>TUM</TY>
+	<PE>N</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>SG</id>
+    <value>Medium Level</value>
+	<TY>TUM</TY>
+	<PE>N</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>SWH</id>
+    <value>Low Level</value>
+	<TY>TUM</TY>
+	<PE>N</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>HP</id>
+    <value>Heat Pumps</value>
+	<TY>N</TY>
+	<PE>Y</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>HPC</id>
+    <value>COP of Heat Pumps</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>SOS</id>
+    <value>Solar Share</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CGE</id>
+    <value>Cogeneration - Efficiency</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>BD</id>
+    <value>Cogeneration - Heat/Electricity ratio</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+ <facmtype>
+    <id>MBS</id>
+    <value>Cogeneration - Biomass Share </value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CA</id>
+    <value>Steel Production(constant)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CB</id>
+    <value>Steel Production(variable)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CC</id>
+    <value>Steel in non-electric furnance</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+   <facmtype>
+    <id>CD</id>
+    <value>Specific consumption of pig iron</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+   <facmtype>
+    <id>CE</id>
+    <value>Coke Usage</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+   <facmtype>
+    <id>CF</id>
+    <value>Feedstock Production(constant)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CG</id>
+    <value>Feedstock Production(variable)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CH</id>
+    <value>Steel Production</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CI</id>
+    <value>Feedstock Production</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+</facmtypes>

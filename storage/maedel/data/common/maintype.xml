@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<maintypes>
+  <maintype>
+    <id>AAA</id>
+    <sub1>Y</sub1>
+    <sub2>N</sub2>
+    <value>Sector 1</value>
+    <gdp>Y</gdp>
+    <editmain>Y</editmain>
+    <ind>Y</ind>
+    <the>N</the>
+    <fac>Y</fac>
+    <editsub>Y</editsub>
+  </maintype>
+</maintypes>

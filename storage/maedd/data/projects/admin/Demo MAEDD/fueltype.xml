@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<fueltypes>
+  <fueltype>
+    <id>1</id>
+    <value>electricity</value>
+    <ftype>EL</ftype>
+  </fueltype>
+  <fueltype>
+    <id>2</id>
+    <value>Steam Coal</value>
+    <ftype>CK</ftype>
+  </fueltype>
+  <fueltype>
+    <id>3</id>
+    <value>Diesel</value>
+    <ftype>MF</ftype>
+  </fueltype>
+  <fueltype>
+    <id>4</id>
+    <value>Gasoline</value>
+    <ftype>MF</ftype>
+  </fueltype>
+  <fueltype>
+    <id>5</id>
+    <value>JetFuel</value>
+    <ftype>MF</ftype>
+  </fueltype>
+  <fueltype>
+    <id>6</id>
+    <value>LPG</value>
+    <ftype>MF</ftype>
+  </fueltype>
+  <fueltype>
+    <id>7</id>
+    <value>CNG</value>
+    <ftype>MF</ftype>
+  </fueltype>
+  <fueltype>
+    <id>8</id>
+    <value>Alcohol</value>
+    <ftype>MF</ftype>
+  </fueltype>
+</fueltypes>

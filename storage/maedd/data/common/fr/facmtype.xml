@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facmtypes>
+  <facmtype>
+    <id>SEL</id>
+    <value>Usage spécifique d'électricité</value>
+	<TY>N</TY>
+	<PE>X</PE>
+	<RT>X</RT>
+  </facmtype>
+  <facmtype>
+    <id>MP</id>
+    <value>Force motrice</value>
+	<TY>N</TY>
+	<PE>X</PE>
+	<RT>X</RT>
+  </facmtype>
+  <facmtype>
+    <id>TU</id>
+    <value>Usages thermique</value>
+	<TY>N</TY>
+	<PE>X</PE>
+	<RT>X</RT>
+  </facmtype>
+  <facmtype>
+    <id>FDH</id>
+    <value>Haut niveau</value>
+	<TY>TUM</TY>
+	<PE>N</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>SG</id>
+    <value>Moyen niveau</value>
+	<TY>TUM</TY>
+	<PE>N</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>SWH</id>
+    <value>Bas niveau</value>
+	<TY>TUM</TY>
+	<PE>N</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>HP</id>
+    <value>Pompes à chaleur</value>
+	<TY>N</TY>
+	<PE>Y</PE>
+	<RT>N</RT>
+  </facmtype>
+  <facmtype>
+    <id>HPC</id>
+    <value>COP de pompe à chaleur</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>SOS</id>
+    <value>Part du solaire</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CGE</id>
+    <value>Cogénération - Productivité</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>BD</id>
+    <value>Cogénération - Chaleur/ratio Electricité</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+ <facmtype>
+    <id>MBS</id>
+    <value>Cogénération - Part de Biomasse</value>
+	<TY>N</TY>
+	<PE>P</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CA</id>
+    <value>Production d'acier(constante)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CB</id>
+    <value>Production d'acier(variable)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CC</id>
+    <value>Acier dans appareil non electrique </value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+   <facmtype>
+    <id>CD</id>
+    <value>Consommation précis d'acier brut</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+   <facmtype>
+    <id>CE</id>
+    <value>Usage de coke</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+   <facmtype>
+    <id>CF</id>
+    <value>Production de matiére premiére(constante)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CG</id>
+    <value>Production de matiére premičre(variable)</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CH</id>
+    <value>Steel Production</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+  <facmtype>
+    <id>CI</id>
+    <value>Production de matiére premiére</value>
+	<TY>N</TY>
+	<PE>F</PE>
+	<RT>A</RT>
+  </facmtype>
+</facmtypes>

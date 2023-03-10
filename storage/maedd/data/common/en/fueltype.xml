@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<fueltypes>
+  <fueltype>
+    <id>1</id>
+    <value>Electricity</value>
+    <ftype>EL</ftype>
+  </fueltype>
+</fueltypes>

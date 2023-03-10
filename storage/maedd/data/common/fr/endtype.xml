@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<endtypes>
+  <endtype>
+    <id>AP</id>
+    <value>Elec Specifique</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+    <endtype>
+    <id>LH</id>
+    <value>Eclairage</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>N</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+  <endtype>
+    <id>AC</id>
+    <value>Climatisation</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>Y</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+    <endtype>
+    <id>CO</id>
+    <value>Cuisine</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>N</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+  <endtype>
+    <id>SH</id>
+    <value>Chauffage d'espace</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>Y</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+  <endtype>
+    <id>OT</id>
+    <value>Autres</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>N</Hou>
+  </endtype>
+  <endtype>
+    <id>WH</id>
+    <value>Chauffage d'eau</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>N</Man>
+    <Ser>N</Ser>
+	<Hou>Y</Hou>
+  </endtype>
+   <endtype>
+    <id>TU</id>
+    <value>Usage Therm</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>N</Hou>
+  </endtype>
+  <endtype>
+    <id>FDH</id>
+    <value>Temp Haute</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>Y</Man>
+    <Ser>N</Ser>
+	<Hou>N</Hou>
+  </endtype>
+   <endtype>
+    <id>SG</id>
+    <value>Temp Moyenne</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>Y</Man>
+    <Ser>N</Ser>
+	<Hou>N</Hou>
+  </endtype>
+   <endtype>
+    <id>SWH</id>
+    <value>Temp Basse</value>
+    <Agr>N</Agr>
+    <Cst>N</Cst>
+    <Min>N</Min>
+    <Man>Y</Man>
+    <Ser>N</Ser>
+	<Hou>N</Hou>
+  </endtype>
+    <endtype>
+    <id>MP</id>
+    <value>Force Mot</value>
+    <Agr>Y</Agr>
+    <Cst>Y</Cst>
+    <Min>Y</Min>
+    <Man>Y</Man>
+    <Ser>Y</Ser>
+	<Hou>N</Hou>
+  </endtype>
+</endtypes>
+
+

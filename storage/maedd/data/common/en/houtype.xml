@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<houtypes>
+  <houtype>
+    <id>TF</id>
+    <value>Traditional fuels</value>
+	<eff>Eff. Traditional Fuels</eff>
+    <SH>Y</SH>
+    <WH>Y</WH>
+    <CO>Y</CO>
+    <AC>N</AC>
+    <AP>N</AP>
+	<LH>N</LH>
+  </houtype>
+  <houtype>
+    <id>MB</id>
+    <value>Modern Biomass</value>
+	<eff>Eff. Modern Biomass</eff>
+    <SH>Y</SH>
+    <WH>Y</WH>
+    <CO>Y</CO>
+    <AC>N</AC>
+    <AP>N</AP>
+	<LH>N</LH>
+  </houtype>
+  <houtype>
+    <id>EL</id>
+    <value>Electricity</value>
+	<eff>COP Heat Pumps</eff>
+    <SH>Y</SH>
+    <WH>Y</WH>
+    <CO>Y</CO>
+    <AC>Y</AC>
+    <AP>Y</AP>
+	<LH>Y</LH>
+  </houtype>
+  <houtype>
+    <id>DH</id>
+    <value>District heating</value>
+	<eff></eff>
+    <SH>Y</SH>
+    <WH>Y</WH>
+    <CO>N</CO>
+    <AC>N</AC>
+    <AP>N</AP>
+	<LH>N</LH>
+  </houtype>
+  <houtype>
+    <id>FF</id>
+    <value>Substitutable Fossils</value>
+	<eff>Eff. Fossil Fuels</eff>
+    <SH>Y</SH>
+    <WH>Y</WH>
+    <CO>Y</CO>
+    <AC>Y</AC>
+    <AP>Y</AP>
+	<LH>Y</LH>
+  </houtype>
+    <houtype>
+    <id>SO</id>
+    <value>Solar Thermal</value>
+	<eff>Solar Thermal Share</eff>
+    <SH>Y</SH>
+    <WH>Y</WH>
+    <CO>Y</CO>
+    <AC>N</AC>
+    <AP>N</AP>
+	<LH>N</LH>
+  </houtype>
+ </houtypes>

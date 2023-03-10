@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<row><id>1</id><id>1</id><id>1</id><id>1</id><id>1</id><id>1</id><id>1</id><id>1</id><id>1</id><id>1</id><studyName>Demo MAEDD</studyName><Year>2010,2015,2020,2025</Year><populationunit>Million</populationunit><Gdpunit>Million</Gdpunit><Currency>US$</Currency><energyunit>GWyr</energyunit><punit>Billion</punit><funit>Billion</funit><Unit>Million</Unit><Desc>The data used in this demonstration case correspond to a hypothetical scenario for a hypothetical country. 
+They are there only for illustration purposes and will need to be replaced by actual country and scenario specific data by the user of the model.
+</Desc><SID>1</SID><SID>1</SID><SID>1</SID><SID>1</SID><SID>1</SID><SID>1</SID><SID>1</SID><SID>1</SID><SID>1</SID><SID>1</SID></row>

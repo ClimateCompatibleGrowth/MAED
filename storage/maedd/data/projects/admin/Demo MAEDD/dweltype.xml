@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<dweltypes>
+  <dweltype>
+    <id>a</id>
+    <value>Specific energy requirements</value>
+    <unit>/dw/yr</unit>
+    <ftype>CO</ftype>
+  </dweltype>
+  <dweltype>
+    <id>c</id>
+    <value>Specific_requirement_of_hot_water_per_capita</value>
+    <unit>kWh/cap/yr</unit>
+    <ftype>WH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>b</id>
+    <value>Dwelling_with_hot_water</value>
+    <unit>%</unit>
+    <ftype>WH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>e</id>
+    <value>Electricity_Penetration</value>
+    <unit>%</unit>
+    <ftype>AP</ftype>
+  </dweltype>
+  <dweltype>
+    <id>d</id>
+    <value>Specific electricity requirements</value>
+    <unit>/dw/yr</unit>
+    <ftype>AP</ftype>
+  </dweltype>
+  <dweltype>
+    <id>d</id>
+    <value>Specific energy requirements</value>
+    <unit>/dw/yr</unit>
+    <ftype>LH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>f</id>
+    <value>Specific Substitutable Fuels requirements</value>
+    <unit>/dw/yr</unit>
+    <ftype>AP</ftype>
+  </dweltype>
+   <dweltype>
+    <id>f</id>
+    <value>Specific Substitutable Fuels requirements</value>
+    <unit>/dw/yr</unit>
+    <ftype>LH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>g</id>
+    <value>Shares_by_dwelling_type</value>
+    <unit>%</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>h</id>
+    <value>Dwelling_sizes_by_dwelling_type</value>
+    <unit>m2</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+ <dweltype>
+    <id>i</id>
+    <value>Area_heated</value>
+    <unit>%</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>j</id>
+    <value>Heat_losses_rate</value>
+    <unit>/m2/C/h</unit>
+    <ftype>SH</ftype>
+  </dweltype>
+  <dweltype>
+    <id>k</id>
+    <value>Dwelling_with_air_conditioning</value>
+    <unit>%</unit>
+    <ftype>AC</ftype>
+  </dweltype>
+  <dweltype>
+    <id>l</id>
+    <value>Specific_cooling_requirements</value>
+    <unit>/dw/yr</unit>
+    <ftype>AC</ftype>
+  </dweltype>
+</dweltypes>

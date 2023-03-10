@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sectors_data><meta><autoIncrement>133</autoIncrement></meta><data><row><id>130</id><AAA_A>AAA_2</AAA_A><AAA_H>3</AAA_H><AAA_2>Ind1</AAA_2><SID>AAA</SID></row><row><id>131</id><S_A>S_2</S_A><S_H>2</S_H><S_2>Trn1</S_2><SID>S</SID></row><row><id>132</id><S1_A>S1_2</S1_A><S1_H>2</S1_H><S1_2>Hou1</S1_2><SID>S1</SID></row><row><id>133</id><S2_A>S2_2</S2_A><S2_H>2</S2_H><S2_2>Serv1</S2_2><SID>S2</SID></row></data></sectors_data>

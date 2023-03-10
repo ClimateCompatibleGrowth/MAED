@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<houendtypes>
+	<houendtype>
+		<id>SH</id>
+		<value>Chauffage d'espace</value>
+	</houendtype>
+	<houendtype>
+		<id>WH</id>
+		<value>Chauffage d'eau</value>
+	</houendtype>
+	<houendtype>
+		<id>CO</id>
+		<value>Cuisine</value>
+	</houendtype>
+	<houendtype>
+		<id>AC</id>
+		<value>Climatisation</value>
+	</houendtype>
+	<houendtype>
+		<id>AP</id>
+		<value>Appareils</value>
+	</houendtype>
+	<houendtype>
+		<id>LH</id>
+		<value>Eclairage</value>
+	</houendtype>
+</houendtypes>
