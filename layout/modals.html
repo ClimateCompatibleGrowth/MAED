@@ -1,0 +1,82 @@
+<!-- Modal backup -->
+<div id="modalbackup" class="modal right fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <form name="form" action="app/study/study.php" method="post">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" lang="en">Backup case</h4>
+        </div>
+        <div class="modal-body">
+          <input type="text" id="studynameoriginal" name="studynameoriginal" class="form-control titlepsreadonly"
+            readonly="true" />
+          <br />
+          <input type="text" id="studynamenew" placeholder="Name" lang="en" name="studynamenew" class="form-control" />
+        </div>
+        <div class="modal-footer">
+          <button type="submit" id="btnBackupCS" name="btnBackupCS" class="btn btn-primary" lang="en">Backup</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal" lang="en">Close</button>
+        </div>
+        <input type="hidden" name="action" value="backup" />
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for grid info -->
+<div class="modal right fade" id="infoModal"  role="dialog">
+  <div class="modal-dialog">
+        <div class="modal-content">
+              <div class="modal-header" style="background-color:rgb(255,152,0); color:#fff"><span lang="en">More information</span>
+                    <button type="button" class="close" data-dismiss="modal">
+                          <i class="material-icons">close</i>
+                    </button>
+              </div>
+              <div class="modal-body">
+                    <div id="infotext"></div>
+              </div>
+        </div>
+  </div>
+</div>
+
+<!-- Modal for add user-->
+<div class="modal fade" id="changePassModal">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Change pin</h4>  
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+            <br/>
+            <input type="hidden" name="usernameHid" id="usernameHid" value="">
+            <div style="margin-bottom: 25px" class="col-md-12">
+              <!-- <div  class="nest lighter smaller"></i>Current pin</div>  -->
+              <input type="password" class="form-control" id="currentpassword" name="currentpassword" value="" placeholder="Current pin" required />
+              <span id="msgPassword" style="display:none"></span> 
+            </div>
+            <div style="margin-bottom: 25px" class="col-md-12">
+                <!-- <div  class="nest lighter smaller"></i>New pin</div>  -->
+                <input type="password" class="form-control" id="newpassword" name="newpassword" value="" placeholder="New pin" required />
+                <span id="msgPasswordNew" style="display:none"></span> 
+            </div>
+            <div style="margin-bottom: 25px" class="col-md-12" id="changepasswordUser">
+              <button class="btn-primary btn-sm" onclick="changepassword()" name="login">Change pin</button>
+            </div>
+            <div style="margin-bottom: 25px; display:none" class="col-md-12" id="changepasswordAdmin">
+                <button class="btn btn-primary" onclick="changepasswordAdmin()" name="login"></i>Change pin</button>
+              </div>
+          </div>
+        </div>
+        <div class="bs-callout bs-callout-warning smaller-75" style="margin-top:0px; margin-bottom: 5px; padding:5px 5px 5px 7px"> 
+          Pin policy (minimum):
+          <br/> One uppercase [A - Z], One lowercase [a - z], One number [0 - 9], One special character [!@#$%^&*()\-_=+{};:,<.>], Length>8
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+

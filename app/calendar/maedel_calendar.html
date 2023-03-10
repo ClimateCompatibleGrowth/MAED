@@ -1,0 +1,313 @@
+<script>
+    var url = "app/calendar/maedel_calendar.js";
+    $.getScript(url);
+</script>
+
+<form name="formcalendar" action="calendar.php" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="cardtitle"><span lang="el">Days</span>
+                    <div class="btn-group inline pull-right">
+                        <a onclick="saveData()">
+                                <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" lang="en" data-lang-content='false'>save</i></a>
+
+                        <a class="pointer" id="addRowDayTypes">
+                            <i class="material-icons btnblue" data-toggle="tooltip" title="Add new" lang="en" data-lang-content='false'>add</i>
+                        </a>
+                        <a id="deleteRow">
+                            <i class="material-icons btnred" onclick="deleteRow('jqxdaytypes')" data-toggle="tooltip" title="Delete" lang="en" data-lang-content='false'>close</i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="cardbody">
+
+                    <div id="jqxdaytypes"></div>
+                    <hr/>
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                            <td width="40%" lang="en">First day ot the week</td>
+                            <td>
+                                <select name="fday" id="fday" class="form-control">
+                                    <option value="Mon" lang="en">Monday</option>
+                                    <option value="Tue" lang="en">Tuesday</option>
+                                    <option value="Wed" lang="en">Wednesday</option>
+                                    <option value="Thu" lang="en">Thursday</option>
+                                    <option value="Fri" lang="en">Friday</option>
+                                    <option value="Sat" lang="en">Saturday</option>
+                                    <option value="Sun" lang="en">Sunday</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="cardtitle"><span lang="en">Seasons</span>
+                    <div class="btn-group inline pull-right">
+                        <a onclick="saveData()">
+                                <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" lang="en" data-lang-content='false'>save</i></a>
+
+                        <a class="pointer" id="addRowSeasons">
+                            <i class="material-icons btnblue" data-toggle="tooltip" title="Add new" lang="en" data-lang-content='false'>add</i>
+                        </a>
+                        <a id="deleteRow">
+                            <i class="material-icons btnred" onclick="deleteRow('jqxseasons')" data-toggle="tooltip" title="Delete" lang="en" data-lang-content='false'>close</i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="cardbody">
+                    
+                    <div id="jqxseasons"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<div class="row">
+        <div class="col-md-12">
+        <div class="card">
+                <div class="cardtitle"><span lang="en">Type of day definition</span>
+                        <div class="btn-group inline pull-right">
+                                <a onclick="saveData()">
+                                        <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" lang="en" data-lang-content='false'>save</i></a>
+                            </div>
+                </div>
+                <div class="cardbody">
+
+                    <!-- <div id="jqxdaydefitions"></div> -->
+
+                    <table class="table table-striped table-bordered">
+                        <tr>
+                        <td></td>
+                        <td lang="en">Monday</td>
+                        <td lang="en">Tuesday</td>
+                        <td lang="en">Wednesday</td>
+                        <td lang="en">Thursday</td>
+                        <td lang="en">Friday</td>
+                        <td lang="en">Saturday</td>
+                        <td lang="en">Sunday</td>
+                        <td lang="en">Holiday</td>
+                        </tr>
+                        <tr>
+                        <td width="30%" lang="en">Working days</td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Mon"/>
+                                        <label for="Wd_Mon"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Tue"/>
+                                        <label for="Wd_Tue"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Wed"/>
+                                        <label for="Wd_Wed"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Thu"/>
+                                        <label for="Wd_Thu"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Fri"/>
+                                        <label for="Wd_Fri"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Sat"/>
+                                        <label for="Wd_Sat"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Sun"/>
+                                        <label for="Wd_Sun"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="Wd_Ho"/>
+                                        <label for="Wd_Ho"> </label>
+                                        </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td lang="en">Saturday-Sunday-Holiday</td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Mon"/>
+                                        <label for="SSH_Mon"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Tue"/>
+                                        <label for="SSH_Tue"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Wed"/>
+                                        <label for="SSH_Wed"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Thu"/>
+                                        <label for="SSH_Thu"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Fri"/>
+                                        <label for="SSH_Fri"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Sat"/>
+                                        <label for="SSH_Sat"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Sun"/>
+                                        <label for="SSH_Sun"> </label>
+                                        </div>
+                        </td>
+                        <td style="text-align:center">
+                                <div class="pure-checkbox">
+                                        <input type="checkbox" class="basic" id="SSH_Ho"/>
+                                        <label for="SSH_Ho"> </label>
+                                        </div>
+                        </td>
+                        
+                        </tr>
+                        <tr>
+                            <td lang="en">Sunday-Holiday</td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Mon"/>
+                                            <label for="SH_Mon"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Tue"/>
+                                            <label for="SH_Tue"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Wed"/>
+                                            <label for="SH_Wed"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Thu"/>
+                                            <label for="SH_Thu"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Fri"/>
+                                            <label for="SH_Fri"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Sat"/>
+                                            <label for="SH_Sat"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Sun"/>
+                                            <label for="SH_Sun"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="SH_Ho"/>
+                                            <label for="SH_Ho"> </label>
+                                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td lang="en">Any day</td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Mon"/>
+                                            <label for="Ad_Mon"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Tue"/>
+                                            <label for="Ad_Tue"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Wed"/>
+                                            <label for="Ad_Wed"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Thu"/>
+                                            <label for="Ad_Thu"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Fri"/>
+                                            <label for="Ad_Fri"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Sat"/>
+                                            <label for="Ad_Sat"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Sun"/>
+                                            <label for="Ad_Sun"> </label>
+                                            </div>
+                            </td>
+                            <td style="text-align:center">
+                                    <div class="pure-checkbox">
+                                            <input type="checkbox" class="basic" id="Ad_Ho"/>
+                                            <label for="Ad_Ho"> </label>
+                                            </div>
+                            </td>
+                        </tr>
+                        </table>
+
+                </div>
+            </div>
+</div>
+</div>
+
+</form>
+

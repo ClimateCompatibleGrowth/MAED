@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+      <head>
+            <title> MAED </title>
+            <meta charset="UTF-8" />
+            <meta name="Generator" content="EditPlus" />
+            <meta name="Author" content="" />
+            <meta name="Keywords" content="" />
+            <meta name="Description" content="" />
+            <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+            <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+            rel="stylesheet">
+            <link rel="stylesheet" href="references/bootstrap/css/bootstrap.min.css" />
+
+            <link rel="stylesheet" href="references/css/chkradio.css" type="text/css" />
+            <link rel="stylesheet" href="references/css/preloader.css" type="text/css" />
+
+            <link rel="stylesheet" href="references/jqwidgets/styles/jqx.base.css" type="text/css" />
+            <link rel="stylesheet" href="references/jqwidgets/styles/jqx.metro.css" type="text/css" />
+
+            <script src="references/jquery/jquery-3.4.1.min.js"></script>
+            <script src="references/bootstrap/js/bootstrap.min.js"></script>
+            <script src="references/bootbox/bootbox.min.js"></script>
+            <script src="references/jqwidgets/jqx-all.js"></script>
+
+                  <!--crossroad-->
+            <script type="text/javascript" src="references/signals/signals.min.js"></script>
+            <script type="text/javascript" src="references/crossroad/crossroad.min.js"></script>
+            <script type="text/javascript" src="references/hasher/hasher.min.js"></script>	
+
+            <script src="references/jquery-lang/js.cookie.js" charset="utf-8" type="text/javascript"></script>
+            <script src="references/jquery-lang/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+            <script src="references/jquery-lang/initLang.js" charset="utf-8" type="text/javascript"></script>
+
+            <script src="references/jquery/jquery-fileupload/jquery.ui.widget.js"></script>
+            <script src="references/jquery/jquery-fileupload/jquery.iframe-transport.js"></script>
+            <script src="references/jquery/jquery-fileupload/jquery.fileupload.js"></script>
+
+            <!-- ace styles -->
+            <link rel="stylesheet" href="references/ace/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+            <link rel="stylesheet" href="references/css/app.css" type="text/css" />
+            <!-- ace settings handler -->
+            <script src="references/ace/ace-extra.min.js"></script>
+
+            <script src="auth/users/users.js"></script>
+
+      </head>
+
+      <body class="no-skin">
+            <div id="preloader" style="display:none"><div></div></div>
+            <!-- <div id="jqxNotification" ><div id="jqxNotificationContent"></div></div><div id="container"></div> -->
+            <div id="msgcontainer"></div>
+		<header></header>		
+        <div class="main-container ace-save-state" id="main-container">
+		<div id="sidebar" class="sidebar responsive ace-save-state sidebar-fixed ">
+            </div>
+                  <div class="main-content" >
+				<div class="main-content-inner">
+                              <div>	
+                              <div class="page-header" style="padding-top:33px;margin-right:20px; margin-left:0px; padding-left:20px">
+                                    <h1>
+                                          <b><span id="pageTitle" lang="en"></span></b>
+                                          <small id="subtitle"><br/><span  lang="en">Name of the case study</span> <b><span id="studyNameTitle" style="color:#cc0000;"></span></b></small>
+                                     </h1>
+                                   
+                              </div>
+                        </div>
+					<div class="page-content"></div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+			<div class="footer"></div> 
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn-sm btn-nest">
+				<i class="material-icons">keyboard_arrow_up</i>
+			</a>
+		</div>
+		<div id="modals"></div>
+		<script> $("header").load("layout/navbar.html"); </script>
+            <script> $("#sidebar").load("layout/menu.html"); </script>
+		<script> $(".footer").load("layout/footer.html"); </script>
+		<script> $("#modals").load("layout/modals.html"); </script>
+		<script src="references/ace/ace-elements.min.js"></script>
+            <script src="references/ace/ace.min.js"></script>
+		<script type="text/javascript" src="app/app.js"></script>
+            <script type="text/javascript" src="app/routes.js"></script>
+    </body>
+</html>

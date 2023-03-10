@@ -1,0 +1,115 @@
+<link rel="stylesheet" type="text/css" href="references/wijmo/wijmo.min.css" />
+<script src="references/wijmo/jszip.min.js" type="text/javascript"></script>
+<script src="references/wijmo/c1xlsx.js" type="text/javascript"></script>
+<script src="references/wijmo/wijmo.min.js" type="text/javascript"></script>
+<script src="references/wijmo/wijmo.input.min.js" type="text/javascript"></script>
+<script src="references/wijmo/wijmo.grid.min.js" type="text/javascript"></script>
+<script src="references/wijmo/ExcelConverter.js" type="text/javascript"></script>
+<script>
+   var url = "app/data/data.js";
+   $.getScript(url);
+</script>
+<input type="hidden" id="allyears">
+<input type="hidden" id="nseason">
+<input type="hidden" id="ntday">
+<div id="tabs" style="padding-bottom:10px"></div>
+<div class="box-shadow card backwhite">
+   <div class="cardtitle backwhite">
+      <span id="gridTitle" lang="en"></span>
+      <div class="btn-group inline pull-right">
+         <a id="chartGrid" onclick="showChart('gsFlexGrid')"><i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Chart" data-lang-content='false' lang="en">equalizer</i></a>
+         <a id="decDown" onclick="decDown('gsFlexGrid')">
+         <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="Decrease number of decimal places" data-lang-content='false' lang="en">keyboard_arrow_left</i></a>
+         <a  id="decUp" onclick="decUp('gsFlexGrid')">
+         <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="Increase number of decimal places" data-lang-content='false' lang="en">keyboard_arrow_right</i></a>
+         <a download="Export" id="exportgrid" onclick="exportExcel('gsFlexGrid', $(this) )">
+         <i class="material-icons btnblue carddivider" data-toggle="tooltip" title="Export to excel" data-lang-content='false' lang="en">file_download</i></a>
+         <a onclick="saveData()" id="savedata">
+         <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" data-lang-content='false' lang="en">save</i></a>
+         <a id="info" onclick="loadInfo()"> 
+            <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="More information" data-lang-content='false' lang="en">help_outline</i></a>
+      </div>
+      <div class="pull-right" style="padding-right:10px; margin-top:-5px">
+         <span class="dropdown" id="yearscoeff" style="display:none">
+            <small><span lang="en">Years</span></small>
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><span id="changeyear"></span>
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu" id="yearscoefflist">
+            </ul>
+         </span>
+         <span class="dropdown" id="clientscoeff" style="display:none;" >
+            <small><span lang="en">Clients</span></small>
+            <button class="btn btn-default dropdown-toggle"  type="button" data-toggle="dropdown"><span id="changeclient"></span>
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu" id="clientscoefflist">
+            </ul>
+         </span>
+      </div>
+   </div>
+   <div class="cardbody">
+      <div id="gsFlexGrid" class="gridwijmocustom"></div>
+      <span id="notes" style="display:none" lang="en" class="text-mutted">* Enter GDP data for first Year & Average annual growth rate for each period/timestep</span>
+      <span id="demographynotes" style="display:none" lang="en" class="text-mutted">* Enter Population data only for the first year & Population growth rate (Average annual) for all other years (except first year)</span>
+      <br/><br/>
+      <input type="text" id="dataNotes" class="form-control" lang="en" placeholder="Data notes" class="text-mutted" autocomplete="off" />
+   </div>
+</div>
+<div id="gdp_subsectors" style="display:none">
+   <div class="box-shadow card backwhite">
+      <div class="cardtitle backwhite">
+         <span id="titlegdpsubsectors" lang="en">Distribution of GDP by subsectors</span>
+         <div class="btn-group inline pull-right">
+            <a id="chart1" onclick="showChart('gsFlexGrid1')">
+            <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Chart" data-lang-content='false' lang="en">equalizer</i></a>
+            <a  onclick="decDown('gsFlexGrid1')">
+            <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="Decrease number of decimal places" data-lang-content='false' lang="en">keyboard_arrow_left</i></a>
+            <a  onclick="decUp('gsFlexGrid1')">
+            <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="Increase number of decimal places" data-lang-content='false' lang="en">keyboard_arrow_right</i></a>
+            <a download="Economic_GDP_subsectors.xls" 
+               id="export1" id="export"  onclick="exportExcel('gsFlexGrid1', $(this) )">
+            <i class="material-icons btnblue carddivider" data-toggle="tooltip" title="Export to excel" data-lang-content='false' lang="en">file_download</i></a>
+            <a  onclick="saveData()">
+            <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" data-lang-content='false' lang="en">save</i></a>
+            <a id="info1"  onclick="loadInfo()"> 
+               <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="More information" data-lang-content='false' lang="en">help_outline</i></a>
+         </div>
+      </div>
+      <div class="cardbody">
+         <div id="gsFlexGrid1" class="gridwijmocustom"></div>
+      </div>
+   </div>
+</div>
+<!-- Modal for displaying chart -->
+<div class="modal right fade" id="chartModalInput">
+<div class="modal-dialog" style="width:100%; padding-left:260px; padding-top:60px">
+<div class="modal-content">
+   <div class="modal-header"><span lang="en">CHART</span>
+      <button type="button" class="close" data-dismiss="modal">
+      <i class="material-icons">close</i>
+      </button>
+   </div>
+   <div class="modal-body">
+      <div class="card">
+         <div class="cardtitle backwhite">
+            <span id="titlechartcard" lang="en">Chart</span>
+            <div class="btn-group inline pull-right">
+               <a  id="line" class="changeChart">
+               <i class="material-icons btngreen carddivider" data-lang-content='false' lang="en" data-toggle="tooltip" title="Line chart">show_chart</i></a>
+               <a  id="column" class="changeChart">
+               <i class="material-icons btnblue carddivider" data-lang-content='false' lang="en" data-toggle="tooltip" title="Column chart">equalizer</i></a>
+               <a   id="stackedarea" class="changeChart">
+               <i class="material-icons btnorange carddivider" data-lang-content='false' lang="en" data-toggle="tooltip" title="Area chart">insert_photo</i></a>
+               <a   id="stackedcolumn"
+                  class="changeChart">
+               <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="Stacked column chart" data-lang-content='false' lang="en">clear_all</i></a>
+               <a   id="exportChart" onclick="exportChart()">
+               <i class="material-icons btnblue carddivider" data-toggle="tooltip" title="Download image" data-lang-content='false' lang="en">file_download</i></a>
+            </div>
+         </div>
+         <div class="cardbody" id="chartdiv">
+            <div id="chartResults" style="width: 100%; height: 500px">chart</div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="hiddenfields"></div>

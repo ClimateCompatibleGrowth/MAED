@@ -1,0 +1,97 @@
+<div id="navbar" class="navbar navbar-default ace-save-state navbar-fixed-top">
+<div class="navbar-container ace-save-state" id="navbar-container" >
+		<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+			<span class="sr-only">Toggle sidebar</span>
+			<span class="icon-bar">---</span>
+			<span class="icon-bar">---</span>
+			<span class="icon-bar">---</span>
+		</button>
+
+		<div class="navbar-header pull-left">
+			<a href="#/" class="navbar-brand">
+				<small>
+					<i class="material-icons" style="border-left:2px solid #fff;border-bottom:2px solid #fff; font-size: 15px; ">show_chart</i>
+					MAED 
+					<span lang="en" style="font-size:11px" class="hidden-xs hidden-sm">Model for Analysis of Energy Demand</span>
+				</small>
+			</a>
+		</div>
+		<div class="navbar-buttons navbar-header pull-right" role="navigation" >
+                <ul class="nav ace-nav">
+                    <li class="dropdown-modal pull-right" style="opacity:0.9; display:none" id="loginMenu">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle btn-primary btn-sm " >
+                            	<i class="material-icons bigger-220" aria-hidden="true" style="margin-right:5px; padding-top:10px">account_circle</i>
+								<span class="user-info" style="padding-top:10px">
+									<span id="user"></span>
+								</span>
+								<i class="arrow material-icons">keyboard_arrow_down</i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close" style="width:200px">
+								<li id="userManage">
+									<a id="accounts" href="#/Users">
+										<i class="material-icons pull-right menu-icon">group</i>
+										<span class="menu-text" lang="en">Users</span>
+									</a>
+								</li>
+								
+								<li>
+									<a href="#" data-toggle="modal" data-target="#changePassModal">
+										<i class="material-icons pull-right menu-icon">https</i>
+										<span class="menu-text" lang="en">Change pin</span>
+									</a>
+								</li>
+								
+								<li>
+                                    <a id="about" href="#/Info">
+										<i class="material-icons pull-right menu-icon">help_outline</i>
+										<span class="menu-text" lang="en">About</span>
+                                    </a>
+								</li>
+								<div class="divider"></div>
+
+								<li>
+									<a href="#/Logout">
+										<i class="material-icons pull-right menu-icon">exit_to_app</i>
+										<span class="menu-text"  lang="en">Logout</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="dropdown-modal pull-right" style="opacity:0.9; display:none" id="loginAbout">
+							<a id="about" href="#/Info" class="btn btn-primary">
+								<i class="material-icons pull-right menu-icon" style="padding-top:10px; padding-left:5px">help_outline</i>
+								<span class="menu-text" lang="en">About</span>
+							</a>
+						</li>
+
+						<li class="dropdown-modal pull-right" style="opacity:0.9;">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle btn-default btn-sm">
+								<!-- <i class="material-icons bigger-220" aria-hidden="true" style="margin-right:5px; padding-top:10px">account_circle</i> -->
+								<span class="user-info" style="padding-top:10px; padding-left:10px">
+								<span id="activeMAED"></span>
+								</span>
+								<i class="arrow material-icons" style="padding-top:10px">keyboard_arrow_down</i>
+							</a>
+	
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close" style="width:210px">
+								<li >
+									<a id="maedD" class="pointer" href="#/ChangeMaed/maedd">
+										<span class="menu-text">MAED D</span>
+									</a>
+								</li>
+
+								<li>
+									<a id="maedEL" class="pointer" href="#/ChangeMaed/maedel">
+										<span class="menu-text">MAED EL</span>
+									</a>
+								</li>
+								</li>
+								</li>
+							</ul>
+						</li>
+            </ul>
+        </div>
+</div><!-- /.navbar-container -->
+</div>

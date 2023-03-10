@@ -1,0 +1,56 @@
+<script>
+  var url = "app/study/study.js";
+  $.getScript(url);
+</script>
+<div class="row">
+  <div class="col-md-8">
+    <div class="panel-group" id="accordionstudy">
+    </div>
+  </div>
+  <div class="col-md-4">
+    <span lang="en" class="modultitle">Actions</span> <br /> <span lang="en" class="text-muted">Manage case studies</span>
+    <div class="box-shadow card backwhite" id="cscardnew">
+      <div class="cardtitle" lang="en">Create new case study</div>
+      <div class="cardbody">
+        <br />
+        <div class="form-group" id="fgstudyname">
+          <input type="text" id="studyname" class="form-control" lang="en" placeholder="Name of the case study" />
+        </div>
+        <div class="form-group">
+          <textarea rows="3" id="desc" lang="en" class="form-control" placeholder="Case description"></textarea>
+        </div>
+        <div class="card-footer">
+          <a onclick="createCaseStudy()" class="btn btn-primary" id="btnNewCS" type="button" lang="en" style="width:100%"
+           >Create case study</a>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="box-shadow card backwhite" id="cscardrestore">
+      <div class="cardtitle" lang="en" >Restore case study</div>
+      <div class="cardbody">
+        <div class="row">
+          <div class="col-md-6">
+            <span class="btn btn-primary fileinput-button" style="width:100%">
+              <i class="material-icons link" style="font-size:19px !important">add</i>
+              <span lang="en">Select case...</span>
+
+              <input id="fileupload" type="file" name="files[]">
+            </span>
+          </div>
+          <div class="col-md-6">
+            <button type="button" id="btnrestore" name="btnrestore" class="btn btn-primary pull-right" lang="en" style="width:100%">Restore</button>
+          </div>
+        </div>
+
+        <div id="selected-files" style="padding-top:7px;" class="text-primary"></div>
+      </div>
+    </div>
+    <br />
+  </div>
+</div>
+</div>
+</div>
+</div>
+

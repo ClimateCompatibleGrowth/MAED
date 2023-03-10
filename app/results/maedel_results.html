@@ -1,0 +1,54 @@
+<link rel="stylesheet" type="text/css" href="references/wijmo/wijmo.min.css" />
+<script src="references/wijmo/jszip.min.js" type="text/javascript"></script>
+<script src="references/wijmo/c1xlsx.js" type="text/javascript"></script>
+<script src="references/wijmo/wijmo.min.js" type="text/javascript"></script>
+<script src="references/wijmo/wijmo.input.min.js" type="text/javascript"></script>
+<script src="references/wijmo/wijmo.grid.min.js" type="text/javascript"></script>
+<script src="references/wijmo/ExcelConverter.js" type="text/javascript"></script>
+<script>
+   var url = "app/results/maedel_results.js";
+   $.getScript(url);
+</script>
+<div id="tabs" style="padding-bottom:10px">
+   <ul class="nav nav-tabs">
+      <li role="presentation" class="active">
+         <a href="#/Results/result_summary" id="result_summary">
+         <span lang="en">Summary</span>
+      </a>
+      </li>
+      <li role="presentation" class="">
+         <a href="#/Results/result_chart" id="result_chart">
+         <span lang="en">Chart</span>
+      </a>
+      </li><li role="presentation" class="">
+         <a href="#/Results/result_hourly_load"  id="result_hourly_load">
+            <span lang="en">Hourly load</span></a>
+      </li>
+   </ul>
+</div>
+
+<div class="box-shadow card backwhite">
+   <div class="cardtitle backwhite">
+      <span id="gridTitle" lang="en"></span>
+      <div class="btn-group inline pull-right">
+         <a id="wasp" onclick="exportLoadsy()" style="display:none">
+         <i class="material-icons btnblue carddivider" data-lang-content='false' data-toggle="tooltip" title="Export loadsy" lang="en">arrow_downward</i></a>
+         <a id="ldc" onclick="getChart('ldc')" style="display:none">
+         <i class="material-icons btnblue carddivider" data-lang-content='false' data-toggle="tooltip" title="LDC" lang="en">share</i></a>
+         <a id="hours" onclick="getChart('hours')" style="display:none">
+         <i class="material-icons btngreen carddivider" data-lang-content='false' data-toggle="tooltip" title="Load curve" lang="en">show_chart</i></a>
+         <a id="chart" onclick="showChart('gsFlexGrid')">
+         <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Chart" data-lang-content='false' lang="en">equalizer</i></a>
+         <a id="decDown" onclick="decDown('gsFlexGrid')">
+         <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="Decrease number of decimal places" data-lang-content='false' lang="en">keyboard_arrow_left</i></a>
+         <a  id="decUp" onclick="decUp('gsFlexGrid')">
+         <i class="material-icons btnorange carddivider" data-toggle="tooltip" title="Increase number of decimal places" data-lang-content='false' lang="en">keyboard_arrow_right</i></a>
+         <a download="Export" id="exportgrid" onclick="exportExcel('gsFlexGrid', $(this) )"><i class="material-icons btnblue carddivider" data-toggle="tooltip" title="Export to excel" data-lang-content='false' lang="en">file_download</i></a>
+         <a id="exportChart" onclick="exportChartHourlyData()" style="display:none">
+         <i class="material-icons btnblue carddivider" data-toggle="tooltip" title="Download image" lang="en" data-lang-content='false' >file_download</i></a>
+      </div>
+   </div>
+   <div class="cardbody">
+      <div id="gsFlexGrid" class="gridwijmocustom"></div>
+   </div>
+</div>

@@ -1,0 +1,84 @@
+<script>
+    var url = "app/geninf/maedel_geninf.js";
+    $.getScript(url);
+</script>
+<input type="hidden" id="id">
+   <!-- <div class="container-fluid"> -->
+
+
+                    <div class="card">
+                        <div class="cardtitle backwhite">
+                            <span lang="en">Definitions (name, years, description)</span>
+                            <div class="btn-group inline pull-right">
+                            <a onclick="saveData()">
+                                <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" lang="en" data-lang-content='false'>save</i></a>
+                        </div>
+                        </div>
+                        <div class="cardbody">
+                            <div class="row">
+                                <div class="col-md-6">
+                            <table class="table">
+                                <tr>
+                                    <td id="fgstudyname">
+                                        <span lang="en">Name of the case study</span>
+                                        <input id="studyName" type="text" class="form-control" size="50" autocomplete="off" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span lang="en">Years</span>
+                                        <input id="Year" type="text" class="form-control" size="50" autocomplete="off"
+                                        onkeyup="validYears(this)"
+                                            placeholder="Enter Year(s) seperated by Comma e.g. 2009,2011,2013" />
+                                    </td>
+                                </tr>
+                               
+                            </table>
+                        </div>
+
+                        
+                <div class="col-md-6">
+                    <table class="table">
+                        <tr>
+
+                            <td>
+                                <span lang="en">Case description</span>
+                                <textarea class="form-control" name="Desc" id="Desc" cols="45" autocomplete="off"
+                                    rows="4"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+    
+
+
+       <div class="row">
+           <div class="col-md-12">
+            <div class="card">
+                <div class="cardtitle backwhite">
+                    <span lang="en">Sectors & Clients</span>
+                    <div class="btn-group inline pull-right">
+                        <a onclick="saveDataSectors()">
+                            <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" lang="en" data-lang-content='false'>save</i></a>
+                    </div>
+                </div>
+                <div class="cardbody">
+                    <table id="tblSectors" class="table">
+                        <tbody id="bodySectors">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+           </div>
+       </div>
+    <!-- </div> -->

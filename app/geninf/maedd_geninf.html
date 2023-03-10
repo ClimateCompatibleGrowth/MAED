@@ -1,0 +1,258 @@
+<script>
+    var url = "app/geninf/maedd_geninf.js";
+    $.getScript(url);
+</script>
+<input type="hidden" id="id">
+   <!-- <div class="container-fluid"> -->
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <div class="cardtitle backwhite">
+                            <span lang="en">Definitions (name, years, description)</span>
+                            <div class="btn-group inline pull-right">
+                            <a onclick="saveData()">
+                                <i class="material-icons btngreen carddivider" data-lang-content='false' data-toggle="tooltip" title="Save data" lang="en">save</i></a>
+                        </div>
+                        </div>
+                        <div class="cardbody">
+                            <table class="table">
+                                <tr>
+                                    <td id="fgstudyname">
+                                        <span lang="en">Name of the case study</span>
+                                        <input id="studyName" type="text" class="form-control" size="50" autocomplete="off" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span lang="en">Years</span>
+                                        <input id="Year" type="text" class="form-control" size="50" autocomplete="off"
+                                        onkeyup="validYears(this)"
+                                            title="Enter Year(s) seperated by Comma e.g. 2009,2011,2013" />
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>
+                                        <span lang="en">Case description</span>
+                                        <textarea class="form-control" name="Desc" id="Desc" cols="45" autocomplete="off"
+                                            rows="8"></textarea>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                        <div class="card">
+                                <div class="cardtitle backwhite">
+                                    <span lang="en">Units</span>
+                                    <div class="btn-group inline pull-right">
+                                        <a onclick="saveData()">
+                                            <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" lang="en" data-lang-content='false'>save</i></a>
+                                    </div>
+                                </div>
+                                <div class="cardbody">
+                                    <div class="rbutton">
+                                            <div class="small" lang="en">Population</div>
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="population1" class="radio" name="populationunit"
+                                                value="Thousand" />
+                                            <label for="population1">Thousand</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton">
+                                            <input type="radio" id="population2" class="radio" name="populationunit"
+                                                value="Million" />
+                                            <label for="population2">Million</label>
+                                        </span>
+                                    </div>
+                                    <div class="rbutton">
+                                        <div class="small" lang="en">GDP</div>
+                                            <div class="row">
+                                            <div class="col-md-8">
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="gdpunit1" class="radio" name="Gdpunit"
+                                                value="Million" />
+                                            <label for="gdpunit1">Million [10&#x2076;]</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="gdpunit2" class="radio" name="Gdpunit"
+                                                value="Billion" />
+                                            <label for="gdpunit2">Billion [10&#x2079;]</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton">
+                                            <input type="radio" id="gdpunit3" class="radio" name="Gdpunit"
+                                                value="Trillion" />
+                                            <label for="gdpunit3">Trillion [10&#x00b9;&#x00b2]</label>
+                                        </span>
+                                    </div>
+                                        <div class="col-md-4">
+                                      <select name="Currency" id="Currency"  title="Select Currency" class="form-control"></select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rbutton">
+                                            <div class="small" lang="en">Transport Pessenger (pkm)</div>
+                                        <span class="pure-radiobutton pdr50">
+                            
+                                            <input type="radio" id="punit1" class="radio" name="punit"
+                                                value="Million" />
+                                            <label for="punit1">Million [10&#x2076;]</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="punit2" class="radio" name="punit"
+                                                value="Billion" />
+                                            <label for="punit2">Billion [10&#x2079;]</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton">
+                                            <input type="radio" id="punit3" class="radio" name="punit"
+                                                value="Trillion" />
+                                            <label for="punit3">Trillion [10&#x00b9;&#x00b2]</label>
+                                        </span>
+                                </div>
+                                 
+                                    <div class="rbutton">
+                                            <div class="small" lang="en">Transport Freight (tkm)</div>
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="funit1" class="radio" name="funit"
+                                                value="Million" />
+                                            <label for="funit1">Million [10&#x2076;]</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="funit2" class="radio" name="funit"
+                                                value="Billion" />
+                                            <label for="funit2">Billion [10&#x2079;]</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton">
+                                            <input type="radio" id="funit3" class="radio" name="funit"
+                                                value="Trillion" />
+                                            <label for="funit3">Trillion [10&#x00b9;&#x00b2]</label>
+                                        </span>
+                                    </div>
+                                    
+                                    <div class="rbutton">
+                                        <div class="small" lang="en">Energy unit</div>
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="energyunit1" class="radio" name="energyunit"
+                                                value="GWyr" />
+                                            <label for="energyunit1">GWyr</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="energyunit2" class="radio" name="energyunit"
+                                                value="PJ" />
+                                            <label for="energyunit2">PJ</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="energyunit3" class="radio" name="energyunit"
+                                                value="Tcal" />
+                                            <label for="energyunit3">Tcal</label>
+                                        </span>
+                            
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="energyunit4" class="radio" name="energyunit"
+                                                value="Mtoe" />
+                                            <label for="energyunit4">Mtoe</label>
+                                        </span>
+                                        <span class="pure-radiobutton pdr50">
+                                            <input type="radio" id="energyunit5" class="radio" name="energyunit"
+                                                value="GBTU" />
+                                            <label for="energyunit5">GBTU</label>
+                                        </span>
+                               
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+
+<div class="col-md-12">
+        <div class="card">
+                <div class="cardtitle backwhite">
+                    <span lang="en">Sectors & Clients</span>
+                    <div class="btn-group inline pull-right">
+                        <a onclick="saveDataSectors()">
+                            <i class="material-icons btngreen carddivider" data-toggle="tooltip" title="Save data" lang="en" data-lang-content='false'>save</i></a>
+                    </div>
+                </div>
+                <div class="cardbody">
+                    <!-- <div id="jqxsectors"></div> -->
+                    <ul class="nav nav-tabs" id="ultabs">
+                            <!-- <li role="presentation" class="active"><a data-toggle="tab" href="#Agr">Agriculture</a></li>
+                            <li role="presentation"><a data-toggle="tab" href="#Cst">Construction</a></li>
+                            <li role="presentation"><a data-toggle="tab" href="#Min">Mining</a></li>
+                            <li role="presentation"><a data-toggle="tab" href="#Man">Manufacturing</a></li>
+                            <li role="presentation"><a data-toggle="tab" href="#Ser">Service</a></li>
+                            <li role="presentation"><a data-toggle="tab" href="#Ene">Energy</a></li>
+                            <li role="presentation"><a data-toggle="tab" href="#Hou">Household</a></li>
+                            <li role="presentation"><a data-toggle="tab" href="#Trp">Transport</a></li> -->
+                      </ul>
+                    
+                      <div class="tab-content">
+                      <div id="Agr" class="tab-pane fade in active">
+                            
+                         
+                      </div>
+                    
+                      <div id="Cst" class="tab-pane fade in">
+                        </div>
+                    
+                        <div id="Min" class="tab-pane fade in">
+                            </div>
+                    
+                        <div id="Man" class="tab-pane fade in">
+                        </div>
+                    
+                        <div id="Ser" class="tab-pane fade in">
+                        </div>
+                    
+                        <div id="Ene" class="tab-pane fade in">
+                        </div>
+                    
+                        <div id="Hou" class="tab-pane fade in">
+                        </div>
+                    
+                        <div id="Trp" class="tab-pane fade in ">
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+</div>
+            </div>
+
+        </div>
+    <!-- </div> -->
+
+        <!-- Modal for fuel types -->
+        <div class="modal right fade" id="fuelTypesModal">
+            <div class="modal-dialog" style="width:600px; padding-top:60px">
+                  <div class="modal-content">
+                        <div class="modal-header"><span lang="en">FUEL TYPES</span>
+                              <button type="button" class="close" data-dismiss="modal">
+                                    <i class="material-icons">close</i>
+                              </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="btn-group inline pull-right">
+                        <a onclick="saveDataFuelTypes()">
+                            <i class="material-icons btngreen carddivider" data-toggle="tooltip"  title="Save data" lang="en" data-lang-content='false'>save</i></a>
+                    </div>
+                                <div id="divfueltype">
+
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+<data>
+<electricity_final_demand>Electricity final demand</electricity_final_demand>
+<electricity_supplied_from_grid>Electricity supplied from grid    </electricity_supplied_from_grid>	
+<electricity_demand_clients>Electricity demand clients	</electricity_demand_clients>	
+<electricity_losses>Transmission and distribution losses</electricity_losses>
+<weekly_coeff>Weekly coeff</weekly_coeff>
+<daily_coeff>Daily coeff</daily_coeff>
+<hourly_coeff>Hourly coeff</hourly_coeff>
+<economic_demography>economic_demography</economic_demography>
+<economic_gdp>GDP</economic_gdp>
+<industry_intensity_motivepower>Energy intensities of Motive Power (final energy per unit of value added)</industry_intensity_motivepower>
+<industry_intensity_electricity>Energy intensities of Specific Electricity use (final energy per unit of value added)</industry_intensity_electricity>
+<industry_intensity_thermal>Energy intensities of Thermal uses (useful energy per unit of value added)</industry_intensity_thermal>
+<industry_efficiency_penetration>Penetrations of energy forms into useful thermal energy in Agriculture, Construction and Mining</industry_efficiency_penetration>
+<industry_efficiency_factors>Average Efficiencies and Factors of energy forms in Thermal uses in Agriculture, Construction and Mining</industry_efficiency_factors>
+<industry_manufacturing_factors>Share of useful thermal energy demand by temperature level in Manufacturing</industry_manufacturing_factors>
+<industry_manufacturing_penetration>Penetration of Energy Carriers into Useful Thermal Energy Demand in Manufacturing</industry_manufacturing_penetration>
+<industry_manufacturing_ratio>Average Efficiencies of energy forms in Thermal uses, Ratios and Factors in Manufacturing</industry_manufacturing_ratio>
+<transport_freight_generation>Freight Transportation: Generation of freight-kilometers</transport_freight_generation>
+<transport_freight_modal>Modal split of freight transportation</transport_freight_modal>
+<transport_freight_intensity>Energy intensities of freight transportation</transport_freight_intensity>
+<transport_intercity_factors>Intercity Passenger Transportation : Load Factors</transport_intercity_factors>
+<transport_intercity_modal>Modal split of cars intercity transportation</transport_intercity_modal>
+<transport_intercity_intensity>Energy intensities of intercity transportation</transport_intercity_intensity>
+<transport_urban_factors>Load factors (person per mode type)</transport_urban_factors>
+<transport_urban_modal>Modal split of intracity passenger transportation</transport_urban_modal>
+<transport_urban_intensity>Energy intensities of urban transportation</transport_urban_intensity>
+<transport_international>Energy consumption of international transportation</transport_international>
+<household_factors_urban>Urban</household_factors_urban>
+<household_factors_rural>Rural</household_factors_rural>
+<service_factors>Basic Data and Factors</service_factors>
+<service_intensity>Energy intensities</service_intensity>
+<service_penetration>Penetration and Efficiencies</service_penetration>
+</data>
+</info>

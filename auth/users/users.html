@@ -1,0 +1,163 @@
+<script type="text/javascript">
+    $(document).ready(function () {
+        getusers();
+        getgroups();
+    });
+</script>
+
+<div class="row">
+    <div class="col-md-3">
+    <div class="nomargin cardtitle backwhite">
+        <span>Manage groups</span>
+        <div class="btn-group inline pull-right">
+            <a id="btnAddUser" data-toggle="modal" data-target="#addGroupModal" title="Add new">
+                <i class="material-icons btnblue carddivider">add</i>
+            </a>
+            <a id="btnDeletegroup" data-toggle="tooltip" title="Delete">
+                <i class="material-icons btnred carddivider" onclick="deletegroup()">close</i>
+            </a>
+        </div>
+    </div>
+    <div id="gridGroups"></div>
+</div>
+<div class="col-md-9">
+        <div class="nomargin cardtitle backwhite">
+            <span>Manage users</span>
+            <div class="btn-group inline pull-right">
+                <a id="btnAddUser" data-toggle="modal" data-target="#addUserModal" title="Add new">
+                    <i class="material-icons btnblue carddivider">add</i>
+                </a>
+                    <a id="btnEditUser" title="Edit user" onclick="edituser()">
+                        <i class="material-icons btnblue carddivider">edit</i>
+                    </a>
+                <a id="btnDeleteuser" data-toggle="tooltip" title="Delete">
+                    <i class="material-icons btnred carddivider" onclick="deleteuser()">close</i>
+                </a>
+            </div>
+        </div>
+        <div id="gridUsers"></div>
+    </div>
+</div>
+
+<!-- Modal for add user-->
+<div class="modal right fade" id="addUserModal">
+    <div class="modal-dialog" style="width:600px">
+        <div class="modal-content">
+            <div class="modal-header"><span id="labelusertitle">ADD USER</span>
+                <button type="button" class="close" data-dismiss="modal">
+                    <i class="material-icons">close</i>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="box-shadow card backwhite text-center">
+                    <br/>
+                    <div class="text-muted" id="passwordpolicy">
+                        Password policy (minimum):
+                        <br/> One uppercase [A - Z]
+                        <br/> One lowercase [a - z]
+                        <br/> One number [0 - 9]
+                        <br/> One special character [!@#$%^&*()\-_=+{};:,<.>]
+                            <br/> Length>8
+                    </div>
+                    <br/>
+
+
+                    <div class="group">
+                        <input type="text" name="username" required id="username">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <labelm id="labelusername">Username</labelm>
+                    </div>
+
+                    <div class="group">
+                        <input type="password" name="password" required id="password">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <labelm id="labelpassword">Password</labelm>
+                    </div>
+
+                    <div class="group">
+                        <label for="usergroup">User group</label>
+                            <select id="usergroup" name="usergroup" class="form-control" />
+                        </div>
+
+                        <div class="group">
+                            <label for="language" class="text-left">Language</label>
+                            <select id="language" name="language" class="form-control">
+                                <option value="en">English</option>
+                                <option value="es">Spanish</option>
+                                <option value="fr">French</option>
+                            </select>
+                        </div>
+
+                        <div class="group">
+                            <label for="maedtype">Default maed type</label>
+                            <select id="maedtype" name="maedtype" class="form-control">
+                                <option value="maedd">D</option>
+                                <option value="maedel">EL</option>
+                            </select>
+                        </div>
+
+                        <div class="group">
+                            <label for="decimalplaces">Decimal places</label>
+                            <select id="decimalplaces" name="decimalplaces" class="form-control">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+
+                    <div class="group">
+                            <div class="pure-checkbox">
+                                    <input type="checkbox" id="isadmin" name="isadmin" />
+                                    <label for="isadmin">User can manage users and groups (admin)</label>
+                                </div>
+                        </div>
+                    <button class="btn btn-primary" style="width:50%" id="adduser" onclick="adduser()" name="adduser">Add user</button>
+                    <button class="btn btn-primary" style="width:50%;display:none" id="updateuser" onclick="updateuser()" name="updateuser">Update user</button>
+                    <br/><br/>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for add user-->
+<div class="modal right fade" id="addGroupModal">
+        <div class="modal-dialog" style="width:600px">
+            <div class="modal-content">
+                <div class="modal-header">ADD GROUP
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="material-icons">close</i>
+                    </button>
+                </div>
+                <div class="modal-body">    
+    <br/>
+                        <div class="group">
+                            <input type="text" name="name" required id="name">
+                            <span class="highlight"></span>
+                            <span class="bar"></span>
+                            <labelm>Group name</labelm>
+                        </div>
+                        <div style="text-align: center">
+                        <button class="btn btn-primary" style="width:70%" id="addgroup" onclick="addgroup()" name="addgroup">Add group</button>
+                    </div>
+                    </div>
+    
+    
+    
+                </div>
+            </div>
+        </div>
+    </div>
